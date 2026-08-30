@@ -36,10 +36,20 @@ namespace Assignment_Adv01
             //Q4: What is a generic method? Write Swap<T> method.
             //It is a method defined with an unspecified type parameter (<T>), allowing it to work with different data types without the need to create an overload for each type separately.
 
-             //Public static void Swap<T>(T a, T b);
+            //Public static void Swap<T>(T a, T b);
             #endregion
 
+            #region Question05
+            //Q5: Write a generic method FindMax<T> that finds maximum value
 
-        }
+        //     public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        //{
+        //    return a.CompareTo(b) > 0 ? a : b;
+        //}
+
+            #endregion
     }
-}
+    } 
+   
+
+    }
