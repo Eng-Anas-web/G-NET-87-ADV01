@@ -92,28 +92,57 @@ namespace Assignment_Adv01
             //A: The class constraint (also known as the Reference Type Constraint) requires the generic type parameter (T) to be a reference type.
 
 
-//public class ObjectHolder<T> where T : class
-//        {
-//            public T Data { get; set; }
+            //public class ObjectHolder<T> where T : class
+            //        {
+            //            public T Data { get; set; }
 
-//            public void Reset()
-//            {
-              
-//                Data = null;
-//            }
+            //            public void Reset()
+            //            {
 
-//            public void CheckNull()
-//            {
-//                if (Data == null)
-//                {
-//                    Console.WriteLine("Data is null");
-//                }
-//                else
-//                {
-//                    Console.WriteLine($"Data is: {Data}");
-//                }
-//            }
-//        }
+            //                Data = null;
+            //            }
+
+            //            public void CheckNull()
+            //            {
+            //                if (Data == null)
+            //                {
+            //                    Console.WriteLine("Data is null");
+            //                }
+            //                else
+            //                {
+            //                    Console.WriteLine($"Data is: {Data}");
+            //                }
+            //            }
+            //        }
+            #endregion
+
+            #region Question09
+            //Q9: What is the 'new()' constraint? Write an example.
+            //A: قيد new() (أو Parameterless Constructor Constraint) يفرض على نوع البيانات الممرر (T) أن يمتلك مُنشئاً عاماً بدون معاملات (Public Parameterless Constructor)
+
+        //    public class Factory<T> where T : new()
+        //{
+        //    public T CreateInstance()
+        //    {
+       
+        //        return new T();
+        //    }
+        //}
+
+        //public class Car
+        //{
+        //    public string Model { get; set; } = "Toyota";
+        //}
+
+     
+        //public class Person
+        //{
+        //    public string Name { get; set; }
+        //    public Person(string name)
+        //    {
+        //        Name = name;
+        //    }
+        //}
             #endregion
 
 
