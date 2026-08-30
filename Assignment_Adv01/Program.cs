@@ -42,14 +42,32 @@ namespace Assignment_Adv01
             #region Question05
             //Q5: Write a generic method FindMax<T> that finds maximum value
 
-        //     public static T FindMax<T>(T a, T b) where T : IComparable<T>
-        //{
-        //    return a.CompareTo(b) > 0 ? a : b;
-        //}
+            //     public static T FindMax<T>(T a, T b) where T : IComparable<T>
+            //{
+            //    return a.CompareTo(b) > 0 ? a : b;
+            //}
 
             #endregion
-    }
-    } 
-   
 
-    }
+            #region Question06
+            //Q6: What is a generic interface? Write IRepository<T>. 
+            //It is a contract that defines a set of methods or properties using a generic type parameter (<T>), without specifying the actual data type during the definition.
+
+        //    public interface IRepository<T>
+        //{
+         
+        //    IEnumerable<T> GetAll();
+
+        //    T GetById(int id);
+
+        //    void Add(T entity);
+             
+        //    void Update(T entity);
+        //    void Delete(int id);
+        //}
+            #endregion
+
+
+      } 
+    } 
+  }
