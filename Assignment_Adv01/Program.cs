@@ -53,21 +53,39 @@ namespace Assignment_Adv01
             //Q6: What is a generic interface? Write IRepository<T>. 
             //It is a contract that defines a set of methods or properties using a generic type parameter (<T>), without specifying the actual data type during the definition.
 
-        //    public interface IRepository<T>
-        //{
-         
-        //    IEnumerable<T> GetAll();
+            //    public interface IRepository<T>
+            //{
 
-        //    T GetById(int id);
+            //    IEnumerable<T> GetAll();
 
-        //    void Add(T entity);
-             
-        //    void Update(T entity);
-        //    void Delete(int id);
-        //}
+            //    T GetById(int id);
+
+            //    void Add(T entity);
+
+            //    void Update(T entity);
+            //    void Delete(int id);
+            //}
             #endregion
 
+            #region Question07
+            //Q7: What is the 'struct' constraint? Write an example.
+            //A: The struct constraint (also known as the Value Type Constraint) requires the generic type parameter (T) to be a value type only, such as (int, float, double, bool, DateTime, or any custom struct).
 
-      } 
+        //    public class Calculator<T> where T : struct
+        //{
+        //    public T Value { get; set; }
+
+        //    public Calculator(T initialValue)
+        //    {
+        //        Value = initialValue;
+        //    }
+
+        //    public void DisplayType()
+        //    {
+        //        Console.WriteLine($"The type is: {typeof(T).Name}");
+        //    }
+        //}
+            #endregion
+    }
     } 
   }
