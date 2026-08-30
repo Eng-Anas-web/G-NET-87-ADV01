@@ -120,29 +120,43 @@ namespace Assignment_Adv01
             //Q9: What is the 'new()' constraint? Write an example.
             //A: قيد new() (أو Parameterless Constructor Constraint) يفرض على نوع البيانات الممرر (T) أن يمتلك مُنشئاً عاماً بدون معاملات (Public Parameterless Constructor)
 
-        //    public class Factory<T> where T : new()
-        //{
-        //    public T CreateInstance()
-        //    {
-       
-        //        return new T();
-        //    }
-        //}
+            //    public class Factory<T> where T : new()
+            //{
+            //    public T CreateInstance()
+            //    {
 
-        //public class Car
-        //{
-        //    public string Model { get; set; } = "Toyota";
-        //}
+            //        return new T();
+            //    }
+            //}
 
-     
-        //public class Person
-        //{
-        //    public string Name { get; set; }
-        //    public Person(string name)
-        //    {
-        //        Name = name;
-        //    }
-        //}
+            //public class Car
+            //{
+            //    public string Model { get; set; } = "Toyota";
+            //}
+
+
+            //public class Person
+            //{
+            //    public string Name { get; set; }
+            //    public Person(string name)
+            //    {
+            //        Name = name;
+            //    }
+            //}
+            #endregion
+
+            #region Question10
+            //Q10:  What is the interface constraint? Write an example.
+            //A: The interface constraint requires the generic type parameter (T) to implement one or more specific interfaces, such as IComparable, IDisposable, or any custom interface.
+
+
+//public class Cleaner<T> where T : IDisposable
+//        {
+//            public void Clean(T resource)
+//            {
+//                resource.Dispose(); 
+//            }
+//        }
             #endregion
 
 
