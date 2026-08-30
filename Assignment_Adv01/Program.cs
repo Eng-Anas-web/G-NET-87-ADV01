@@ -26,11 +26,20 @@ namespace Assignment_Adv01
             //Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
             //A: It is a class that uses multiple unspecified types.
 
-        //    Public static class Pair <T1 , T2>
-        //{
-                ////
-        //}
+            //    Public static class Pair <T1 , T2>
+            //{
+            ////
+            //}
             #endregion
+
+            #region Question04
+            //Q4: What is a generic method? Write Swap<T> method.
+            //It is a method defined with an unspecified type parameter (<T>), allowing it to work with different data types without the need to create an overload for each type separately.
+
+             //Public static void Swap<T>(T a, T b);
+            #endregion
+
+
         }
     }
 }
