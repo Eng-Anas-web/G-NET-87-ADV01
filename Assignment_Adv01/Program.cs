@@ -150,13 +150,41 @@ namespace Assignment_Adv01
             //A: The interface constraint requires the generic type parameter (T) to implement one or more specific interfaces, such as IComparable, IDisposable, or any custom interface.
 
 
-//public class Cleaner<T> where T : IDisposable
-//        {
-//            public void Clean(T resource)
-//            {
-//                resource.Dispose(); 
-//            }
-//        }
+            //public class Cleaner<T> where T : IDisposable
+            //        {
+            //            public void Clean(T resource)
+            //            {
+            //                resource.Dispose(); 
+            //            }
+            //        }
+            #endregion
+
+            #region Question11
+            //Q11: What is the base class constraint? Write an example.
+            //A: The base class constraint requires the generic type parameter (T) to be either the specified base class itself or a class derived from it.
+
+        //    public class Animal
+        //{
+        //    public string Name { get; set; }
+
+        //    public void Eat()
+        //    {
+        //        Console.WriteLine($"{Name} is eating.");
+        //    }
+        //}
+
+      
+        //public class Dog : Animal { }
+
+      
+        //public class AnimalShelter<T> where T : Animal
+        //{
+        //    public void FeedAnimal(T animal)
+        //    {
+               
+        //        animal.Eat();
+        //    }
+        //}
             #endregion
 
 
