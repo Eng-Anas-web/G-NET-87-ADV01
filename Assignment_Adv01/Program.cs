@@ -71,21 +71,52 @@ namespace Assignment_Adv01
             //Q7: What is the 'struct' constraint? Write an example.
             //A: The struct constraint (also known as the Value Type Constraint) requires the generic type parameter (T) to be a value type only, such as (int, float, double, bool, DateTime, or any custom struct).
 
-        //    public class Calculator<T> where T : struct
-        //{
-        //    public T Value { get; set; }
+            //    public class Calculator<T> where T : struct
+            //{
+            //    public T Value { get; set; }
 
-        //    public Calculator(T initialValue)
-        //    {
-        //        Value = initialValue;
-        //    }
+            //    public Calculator(T initialValue)
+            //    {
+            //        Value = initialValue;
+            //    }
 
-        //    public void DisplayType()
-        //    {
-        //        Console.WriteLine($"The type is: {typeof(T).Name}");
-        //    }
-        //}
+            //    public void DisplayType()
+            //    {
+            //        Console.WriteLine($"The type is: {typeof(T).Name}");
+            //    }
+            //}
             #endregion
+
+            #region Question08
+            //Q8: What is the 'class' constraint? Write an example.
+            //A: The class constraint (also known as the Reference Type Constraint) requires the generic type parameter (T) to be a reference type.
+
+
+//public class ObjectHolder<T> where T : class
+//        {
+//            public T Data { get; set; }
+
+//            public void Reset()
+//            {
+              
+//                Data = null;
+//            }
+
+//            public void CheckNull()
+//            {
+//                if (Data == null)
+//                {
+//                    Console.WriteLine("Data is null");
+//                }
+//                else
+//                {
+//                    Console.WriteLine($"Data is: {Data}");
+//                }
+//            }
+//        }
+            #endregion
+
+
     }
     } 
   }
