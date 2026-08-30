@@ -15,14 +15,22 @@ namespace Assignment_Adv01
 
             #region Question02
             //Q2: Write a generic class Container<T> with Add and Get methods.
-        //    Public static class Container<T>
-        //{
-        //    public T Add();
-        //    public T Get();
-        //}
+            //    Public static class Container<T>
+            //{
+            //    public T Add();
+            //    public T Get();
+            //}
             #endregion
 
+            #region Question03
+            //Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
+            //A: It is a class that uses multiple unspecified types.
 
+        //    Public static class Pair <T1 , T2>
+        //{
+                ////
+        //}
+            #endregion
         }
     }
 }
